@@ -178,12 +178,14 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header2.jpg);
+    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: "Cinzel"; serif;
+    font-weight: 400;
 }
 
 header .header-content {
