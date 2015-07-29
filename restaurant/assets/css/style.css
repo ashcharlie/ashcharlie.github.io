@@ -1,3 +1,67 @@
 html {
-	color: blue;
+	color: none;
 }
+
+.container-fluid {
+}
+
+body {
+	padding-top: 50px;
+	background: navy;
+}
+
+.row {
+	border:green;
+}
+
+.red-bg {
+	background-color: red;
+}
+
+img {
+	border: 10px;
+}
+
+.fadeIn {
+    /* Styling for Demo
+    ---------------------------------------------------- */
+    border:none;
+    margin:15px;
+
+    /* CSS needed for animation
+    ---------------------------------------------------- */
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    -o-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+}
+
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fadeIn-3s {
+        -webkit-animation-duration:3.5s;
+        -moz-animation-duration:3.5s;
+        -o-animation-duration:3.5s;
+        animation-duration:3.5s;
+}
+
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+.fadeIn-Delay-3s {
+        -webkit-animation-delay:0.5s;
+        -moz-animation-delay:0.5s;
+        -o-animation-delay:0.5s;
+        animation-delay:0.5s;
+}
+
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-o-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
