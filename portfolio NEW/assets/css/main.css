@@ -174,7 +174,7 @@ a:after {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #820e0e;
+	background: #1a1a1a;
 	width: 200px;
 	height: 100%;
 }
@@ -311,4 +311,36 @@ a:after {
 			transition: all .1s ease-in-out;
 }
 
+
+
+/* Footer Wrap */
+
+#f {
+	background: #1a1a1a;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center
+}
+
+#f h3 {
+	color: white;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 1px;	
+}
+
+#f i {
+	font-size: 8px;
+	color: #fff;
+    padding: 3px;
+}
+
+#f p {
+	font-size: 20px;
+	color: #f2f2f2;
+}
+
+#f img {
+	text-align: center;
+}
 
