@@ -14,6 +14,10 @@
 	background: url(../img/boston.png);
  }*/
 
+#headerwrap {
+	background: url(../img/background.jpg) no-repeat center top;
+}
+
 #headerwrap .container img {
 	max-width: 50%;
 	height: auto;
@@ -94,13 +98,23 @@ img.menulogo {
 	margin-left: 0px;
 }
 
-#boston {
+#boston-red {
 	position: fixed; 
 	top: -50%; 
 	left: -50%; 
 	width: 200%; 
 	height: 200%;
 }
+
+.boston-white {
+	max-width: 30%;
+	width: 200%;
+	height: 200%;
+}
+
+/*.cambridge {
+	max-width: 50%;
+}*/
 
 #headerwrap .row img {
 	width: 50%;
@@ -266,11 +280,17 @@ img.menulogo {
     }
 }
 
+#portfolio {
+	background: url(../img/background.jpg) no-repeat center top;
+}
+
 .portfolio-box {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -328,4 +348,9 @@ img.menulogo {
 
 .btn btn-warning {
 
+}
+
+.creation {
+	font-size: 8px;
+	color: white;
 }
