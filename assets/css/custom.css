@@ -354,3 +354,10 @@ img.menulogo {
 	font-size: 8px;
 	color: white;
 }
+
+.construction {
+    font-size: 60px;
+    color: red;
+    font-family: 'Stardos Stencil', Arial;
+    font-weight: 700;
+}
