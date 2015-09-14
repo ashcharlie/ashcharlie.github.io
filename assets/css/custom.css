@@ -16,6 +16,7 @@
 
 #headerwrap {
 	background: url(../img/background.jpg) no-repeat center top;
+    background-attachment: fixed;
 }
 
 #headerwrap .container img {
@@ -182,6 +183,23 @@ img.menulogo {
     background-color: initial;
 }
 
+#portfolio .titlerow {
+    padding-top: 70px;
+    text-align: center;
+}
+
+#portfolio h3 {
+    color: #1f3359;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#portfolio i {
+    font-size: 8px;
+    color: #1f3359;
+    padding: 3px;
+}
 
 /*Testing new nav bar*/
 .navbar-default {
@@ -282,6 +300,7 @@ img.menulogo {
 
 #portfolio {
 	background: url(../img/background.jpg) no-repeat center top;
+    background-attachment: fixed;
 }
 
 .portfolio-box {
@@ -291,6 +310,9 @@ img.menulogo {
     max-width: 650px;
     margin-top: 20px;
     margin-bottom: 20px;
+    -moz-box-shadow: 0 0 5px 5px #820e0e;
+    -webkit-box-shadow: 0 0 5px 5px #820e0e;
+    box-shadow: 0 0 5px 5px #820e0e;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -350,14 +372,27 @@ img.menulogo {
 
 }
 
+.resume-border {
+    padding: 10px 30px 0px 30px;
+    display: inline-block;
+/*    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 30px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 10px #888;*/
+}
+
 .creation {
-	font-size: 8px;
+	font-size: 16px;
 	color: white;
 }
 
 .construction {
-    font-size: 60px;
+    font-size: 40px;
     color: red;
     font-family: 'Stardos Stencil', Arial;
     font-weight: 700;
+    text-align: center;
 }
+
