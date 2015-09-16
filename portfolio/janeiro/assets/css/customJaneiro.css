@@ -41,6 +41,10 @@
 	letter-spacing: 8px;
 }
 
+.placeholder {
+	height: 100px;
+}
+
 #nav {
 	/*position: fixed;*/
 	list-style: none;
@@ -57,6 +61,9 @@
 	height: 40px;
 	border-bottom: 1px solid #888;
 	margin-right: 100px;
+	list-style-type: none;
+	display: inline-block;
+	width: 25%;
 }
 
 #nav a {
@@ -83,7 +90,6 @@
 	position: fixed;
 	width: 102%;
 	height: 50px;
-	padding-bottom: 200px;
 }
 
 @media screen and (min-width: 767px) {
@@ -98,12 +104,31 @@
 		display: inline-block;
 		margin-right: -4px;
 	}
+}
+
+@media (max-width: 766px) {
+	#nav li {
+		width: 25%;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1em;
+		text-align: left;
+	}
+	#nav li {
+		display: inline-block;
+		margin-right: -4px;
+	}
+	.home-link {
+		margin-left: 40px;
+	}
+}
 
 .portfolio-title-row {
 	border-top: 3px solid #1f3359;
 	border-bottom: 3px solid #1f3359;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 10px;
+	margin-bottom: 35px;
 	border-left-width: 100px;
 	border-right-width: 100px;
 	margin-right: 100px;
@@ -202,6 +227,11 @@ figure figcaption {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
+	color: #820e0e;
+}
+
+h1 {
+	color: #820e0e;
 }
 
 h3 {
@@ -253,6 +283,20 @@ h3 {
 		padding-left: 5px;
 		padding-right: 5px;
 	}
+}
+
+#f {
+	font-size: 12px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#f p {
+	font-size: 16px;
+}
+
+.creation {
+	padding-top: 40px;
 }
 
 /*.Project-Happiness {
