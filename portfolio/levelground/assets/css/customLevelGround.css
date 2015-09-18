@@ -1,0 +1,337 @@
+/*
+ * Author: Charlie Ash
+ * URL: http://charlieash.com
+ *
+ * Project Name: Charlie Ash's Portfolio
+ * Version: 1.0
+ */
+
+/*.portfolio-title-row {
+	border-color: #1f3359;
+	text-align: center;
+	border-top-style: solid; 
+	border-bottom-style: solid;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-left: 150px;
+	border-right: 150px;
+	margin-bottom: 25px;
+}*/
+
+/*.nav-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: #820e0e;
+	padding: 8px 0px;
+	margin: 0px;
+}*/
+
+.home-link {
+	margin-left: 112px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.home-link h2 {
+	margin-top: -10px;
+	letter-spacing: 8px;
+}
+
+.placeholder {
+	height: 100px;
+}
+
+#nav {
+	/*position: fixed;*/
+	list-style: none;
+	background-color: #820e0e;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#nav li {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #888;
+	margin-right: 100px;
+	list-style-type: none;
+	display: inline-block;
+	width: 25%;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: .3s background-color;
+}
+
+#nav a:hover {
+	background-color: #fff;
+	color: #820e0e;
+}
+
+#nav a.active {
+	background-color: #fff;
+	color: #820e0e;
+	cursor: default;
+}
+
+.navbar-fixed {
+	top: 0;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+}
+
+@media screen and (min-width: 767px) {
+	#nav li {
+		width: 120px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+	}
+	#nav li {
+		display: inline-block;
+		margin-right: -4px;
+	}
+}
+
+@media (max-width: 766px) {
+	#nav {
+		margin-left: -5px;
+	}
+
+	#nav li {
+		width: 25%;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1em;
+		text-align: left;
+	}
+	#nav li {
+		display: inline-block;
+		margin-right: -4px;
+	}
+	.home-link {
+		margin-left: 40px;
+	}
+}
+
+.portfolio-title-row {
+	border-top: 3px solid #1f3359;
+	border-bottom: 3px solid #1f3359;
+	margin-top: 10px;
+	margin-bottom: 35px;
+	border-left-width: 100px;
+	border-right-width: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+
+}
+
+.page-description {
+	padding: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.project-page p {
+	font-family: 'Quicksand', serif;
+	font-size: 18px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 25px;
+	margin: 0px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.project-page ol {
+	font-family: 'Quicksand', serif;
+	font-size: 16px;
+	padding-left: 150px;
+	padding-right: 100px;
+	margin: 0px;
+	font-weight: 400;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+body {
+    max-width: auto;
+    background: url(../img/background.jpg) no-repeat center top;
+    background-attachment: fixed;
+}
+
+figure.right {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 25%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 50px 0 10px;
+}
+
+figure .Level-Ground-Website-Original {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 50px 0 10px;
+}
+
+figure.left {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 25%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	margin: 0 0px 0 50px;
+}
+
+figure .Level-Ground-Website-Revised {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float:left;
+/*	display: inline-block;*/
+	margin: 0 20px 0 50px;
+}
+
+figure img {
+	vertical-align: top;
+	text-align: center;
+}
+
+figure figcaption {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #820e0e;
+}
+
+.levelground-powerpoint {
+	float: right;
+	margin: 0 100px 0 20px;
+}
+
+h1 {
+	color: #820e0e;
+}
+
+h3 {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin: 0px;
+	color: #1f3359;
+	/*font-family: 'Architects Daughter', 'Oswald';*/
+}
+
+@media (max-width: 767px) {
+	.portfolio-title-row {
+		border-left-width: 5px;
+		border-right-width: 5px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	.project-page p {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.project-page ol {
+		padding-right: 5px;
+		padding-left: 25px;
+	}
+	figure.right {
+		margin: 5px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure.left {
+		margin: 5px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure .Level-Ground-Website-Original {
+		margin: 5px 5px 5px 10px;
+		float: right;
+		max-width: 40%;
+	}
+	figure .Level-Ground-Website-Revised {
+		margin: 5px 5px 5px 10px;
+		float: left;
+		max-width: 4%;
+	}
+	.levelground-powerpoint {
+		margin: 5px 5px 5px 10px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	h3 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+#f {
+	font-size: 12px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#f p {
+	font-size: 16px;
+}
+
+.creation {
+	padding-top: 40px;
+}
+
+/*.Project-Happiness {
+	max-width: 50%;
+	float: right;
+}
+
+.Janeiro-Digital-Homepage {
+	max-width: 30%;
+	float: right;
+}*/
+
+/*#portfolioDescription {
+	background: url(../img/background.jpg) no-repeat center top;
+    background-attachment: fixed;
+}*/
+
+
+
+
+
+
+
