@@ -184,7 +184,7 @@ body {
 figure.right {
 	/*display: block;*/
 	/*margin: 20px;*/
-	max-width: 25%;
+	max-width: 24%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -204,7 +204,7 @@ figure .Level-Ground-Website-Original {
 figure.left {
 	/*display: block;*/
 	/*margin: 20px;*/
-	max-width: 25%;
+	max-width: 24%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -234,10 +234,10 @@ figure figcaption {
 	color: #820e0e;
 }
 
-.levelground-powerpoint {
+/*.levelground-powerpoint {
 	float: right;
 	margin: 0 100px 0 20px;
-}
+}*/
 
 h1 {
 	color: #820e0e;
@@ -288,12 +288,12 @@ h3 {
 		float: left;
 		max-width: 4%;
 	}
-	.levelground-powerpoint {
+/*	.levelground-powerpoint {
 		margin: 5px 5px 5px 10px;
 		float: none;
 		display: block;
 		max-width: 100%;
-	}
+	}*/
 	h3 {
 		padding-left: 5px;
 		padding-right: 5px;
