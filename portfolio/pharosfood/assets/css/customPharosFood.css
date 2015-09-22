@@ -184,27 +184,27 @@ body {
 figure.right {
 	/*display: block;*/
 	/*margin: 20px;*/
-	max-width: 24%;
+	max-width: 30%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	float: right;
-	margin: 0 50px 0 10px;
+	margin: 0 100px 0 40px;
 }
 
-figure .Level-Ground-Website-Original {
-	max-width: 100%;
+figure .Project-Happiness {
+	max-width: 15%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	float: right;
-	margin: 0 50px 0 10px;
+	margin: 0 100px 0 40px;
 }
 
 figure.left {
 	/*display: block;*/
 	/*margin: 20px;*/
-	max-width: 24%;
+	max-width: 40%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -212,14 +212,14 @@ figure.left {
 	margin: 0 0px 0 50px;
 }
 
-figure .Level-Ground-Website-Revised {
-	max-width: 100%;
+figure .Project-Happiness-Dashboard {
+	max-width: 55%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	float:left;
+	float:right;
 /*	display: inline-block;*/
-	margin: 0 20px 0 50px;
+	margin: 0 100px 0 40px;
 }
 
 figure img {
@@ -233,11 +233,6 @@ figure figcaption {
 	font-weight: bold;
 	color: #820e0e;
 }
-
-/*.levelground-powerpoint {
-	float: right;
-	margin: 0 100px 0 20px;
-}*/
 
 h1 {
 	color: #820e0e;
@@ -278,22 +273,16 @@ h3 {
 		display: block;
 		max-width: 100%;
 	}
-	figure .Level-Ground-Website-Original {
+	figure .Project-Happiness {
 		margin: 5px 5px 5px 10px;
 		float: right;
 		max-width: 40%;
 	}
-	figure .Level-Ground-Website-Revised {
+	figure .Project-Happiness-Dashboard {
 		margin: 5px 5px 5px 10px;
-		float: left;
-		max-width: 4%;
-	}
-/*	.levelground-powerpoint {
-		margin: 5px 5px 5px 10px;
-		float: none;
 		display: block;
 		max-width: 100%;
-	}*/
+	}
 	h3 {
 		padding-left: 5px;
 		padding-right: 5px;
