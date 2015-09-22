@@ -302,7 +302,9 @@ h3 {
 	body {
 		background: url(../img/background.jpg) repeat center top;
 		background-attachment: fixed;
-
+	}
+	#f {
+		background: #1f3359;
 	}
 }
 

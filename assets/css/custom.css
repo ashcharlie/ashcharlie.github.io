@@ -146,17 +146,17 @@ img.menulogo {
 	}
 
     /*To Repeat Backgroun on Mobile*/
-    #f {
-           background: url(../img/background.jpg) repeat center top;
+/*    #f {
+        background: url(../img/background.jpg) repeat center top;
         background-attachment: fixed;
-    }
+    }*/
     #headerwrap {
-           background: url(../img/background.jpg) repeat center top;
+        background: url(../img/background.jpg) repeat center top;
         background-attachment: fixed;
      }
     #portfolio {
-    background: url(../img/background.jpg) repeat center top;
-    background-attachment: fixed;
+        background: url(../img/background.jpg) repeat center top;
+        background-attachment: fixed;
     }
 }
 
