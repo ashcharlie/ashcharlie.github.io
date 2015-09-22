@@ -144,6 +144,20 @@ img.menulogo {
 		width: 100%;
 		max-width: none;
 	}
+
+    /*To Repeat Backgroun on Mobile*/
+    #f {
+           background: url(../img/background.jpg) repeat center top;
+        background-attachment: fixed;
+    }
+    #headerwrap {
+           background: url(../img/background.jpg) repeat center top;
+        background-attachment: fixed;
+     }
+    #portfolio {
+    background: url(../img/background.jpg) repeat center top;
+    background-attachment: fixed;
+    }
 }
 
 .logonameleft {
