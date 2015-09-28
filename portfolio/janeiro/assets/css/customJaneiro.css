@@ -197,7 +197,7 @@ figure .Project-Happiness {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-/*	float: right;*/
+	float: right;
 	margin: 0 100px 0 40px;
 }
 
@@ -217,7 +217,7 @@ figure .Project-Happiness-Dashboard {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-/*	float:right;*/
+	float:right;
 /*	display: inline-block;*/
 	margin: 0 100px 0 40px;
 }

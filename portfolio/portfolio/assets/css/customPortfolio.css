@@ -197,7 +197,7 @@ figure .Portfolio-Landing-Page-Sketch {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-/*	float: right;*/
+	float: right;
 	margin: 0 100px 0 40px;
 }
 
@@ -217,7 +217,7 @@ figure .Portfolio-Wireframe-Sketch {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-/*	float:right;*/
+	float:right;
 /*	display: inline-block;*/
 /*	margin: 0 100px 0 40px;*/
 }
