@@ -108,14 +108,42 @@ img.menulogo {
 }
 
 .boston-white {
-	max-width: 30%;
+	max-width: 20%;
 	width: 200%;
 	height: 200%;
+    margin-top: 20px;
 }
 
+.scroller {
+    position: relative;
+    display: block;
+    width: 10%;
+    text-align: center;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 20px;
+
+}
+.arrows {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
 /*.cambridge {
 	max-width: 50%;
 }*/
+
+.scrollDown {
+    position: absolute;
+    /*position: relative;*/
+    top: 40px;
+    left: -150px;
+    width: 140%;
+/*    right: 50px;
+    width: 10vw;
+    top: 14px;*/
+}
 
 #headerwrap .row img {
 	width: 65%;
@@ -144,6 +172,9 @@ img.menulogo {
 		width: 100%;
 		max-width: none;
 	}
+    .scrollDown {
+        display: none;
+    }
 
     /*To Repeat Backgroun on Mobile*/
 /*    #f {
@@ -158,6 +189,12 @@ img.menulogo {
         background: url(../img/background.jpg) repeat center top;
         background-attachment: fixed;
     }
+}
+
+.pencil {
+    position: center;
+    max-width: 50%;
+    margin: 20px 0 40px 0;
 }
 
 .logonameleft {
@@ -406,7 +443,7 @@ img.menulogo {
 .creation {
 	font-size: 12px;
 	color: white;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .construction {
