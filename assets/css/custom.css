@@ -17,6 +17,7 @@
 #headerwrap {
 	background: url(../img/background.jpg) no-repeat center top;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 #headerwrap .container img {
@@ -74,6 +75,13 @@ img.menulogo {
     top: 14px;
 }
 
+img.menuheader {
+    position: absolute;
+    right: 50px;
+    width: 100px;
+    top: 10px;
+}
+
 .tagline {
 	background: url(../img/shadinggraywriting.png) no-repeat center;
 	background-size: 40%;
@@ -94,9 +102,9 @@ img.menulogo {
  #headerwrap .logo {
 	/*background-image: url(../img/boston.png);*/
 
-	max-width: 40%;
+	max-width: 30%;
 	height: auto;
-	margin-left: 0px;
+	margin-left: -50px;
 }
 
 #boston-red {
@@ -105,6 +113,14 @@ img.menulogo {
 	left: -50%; 
 	width: 200%; 
 	height: 200%;
+}
+
+#boston-skyline {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
 }
 
 .boston-white {
@@ -128,7 +144,7 @@ img.menulogo {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
 }
 /*.cambridge {
 	max-width: 50%;
@@ -146,10 +162,11 @@ img.menulogo {
 }
 
 #headerwrap .row img {
-	width: 65%;
+	width: 50%;
 	max-width: none;
 	height: auto;
-	/*margin-top: -90px;*/
+    margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 /*#headerwrap .row .boston img {
@@ -163,6 +180,10 @@ img.menulogo {
 	img.menulogo {
 		display: none;
 	}
+
+    img.menuheader {
+        display: none;
+    }
 
 	#headerwrap .row img {
 		width: 100%;
