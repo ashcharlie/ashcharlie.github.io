@@ -15,7 +15,7 @@
  }*/
 
 #headerwrap {
-	background: url(../img/background.jpg) no-repeat center top;
+	/*background: url(../img/background.jpg) no-repeat center top;*/
     background-attachment: fixed;
     background-size: cover;
 }
@@ -30,7 +30,7 @@
  }
 
  #headerwrap h3 {
- 	font-family: 'Architects Daughter', serif;
+ 	font-family: 'Josefin Sans', 'Architects Daughter', serif;
  	/*color: #820e0e;*/
  	font-size: 20px;
  	color: white;
@@ -38,6 +38,108 @@
  	letter-spacing: -1px;
  	vertical-align: text-top;
 }
+
+#headerwrap .row {
+    height: 300px;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    background-image: url(../img/charlieashlogotriangleswide.png) no-repeat center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/*div.container {
+    display: none;
+}*/
+
+
+/* make keyframes that tell the start state and the end state of our object */
+ 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+ opacity:0;  /* make things invisible upon start */
+ -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
+ 
+ -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+ 
+ -webkit-animation-duration:4s;
+ -moz-animation-duration:4s;
+ animation-duration:4s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+
+#charlieashlogowide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+}
+
+#charlieashlogotriangleswide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+}
+
+/*Fade in transition attempt*/
+    /*#cf {
+      position:relative;
+      height:281px;
+      width:450px;
+      margin:0 auto;
+    }
+
+    #cf img {
+      position:absolute;
+      left:0;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+    }
+
+    @keyframes cfFadeInOut {
+        0%      {opacity:1;}
+        45%     {opacity:1;}
+        55%     {opacity:0;}
+        100%    {opacity:0;}
+    }
+
+    #cf img.top {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    }*/
 
 /*#headerwrap .menulogo {
 	text-align: right;
@@ -61,6 +163,18 @@
 
 .menu a {
 	color: #a4a4a4;
+}
+
+.menu i {
+    color: #ffffff;
+
+}
+
+#menuToggle i {
+    color: #820e0e;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: center;
 }
 
 #f {
@@ -136,8 +250,8 @@ img.menuheader {
     width: 10%;
     text-align: center;
     margin: auto;
-    padding-top: 70px;
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 90px;
 
 }
 .arrows {
@@ -162,10 +276,10 @@ img.menuheader {
 }
 
 #headerwrap .row img {
-	width: 50%;
+	width: 70%;
 	max-width: none;
 	height: auto;
-    margin-top: 100px;
+    margin-top: 180px;
 	margin-bottom: 50px;
 }
 
@@ -185,8 +299,12 @@ img.menuheader {
         display: none;
     }
 
+    #headerwrap .row {
+        height: 200px;
+    }
+
 	#headerwrap .row img {
-		width: 100%;
+		width: 90%;
 	}
 
 	#headerwrap .logo img {
@@ -196,6 +314,10 @@ img.menuheader {
     .scrollDown {
         display: none;
     }
+    .scrollarrows {
+        display: none;
+    }
+
 
     /*To Repeat Backgroun on Mobile*/
 /*    #f {
@@ -216,6 +338,7 @@ img.menuheader {
     position: center;
     max-width: 50%;
     margin: 20px 0 40px 0;
+    opacity: 0.75;
 }
 
 .logonameleft {
@@ -235,6 +358,11 @@ img.menuheader {
 	font-size: 20px;
 	font-weight: 100;
 	font-family: 'Oswald', sans-serif;
+}
+
+
+.about {
+    width: 100%;
 }
 
 #home .row h1 {
@@ -276,7 +404,7 @@ img.menuheader {
 /*Testing new nav bar*/
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Josefin Sans', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -285,7 +413,7 @@ img.menuheader {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Josefin Sans', 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
 }
@@ -373,6 +501,7 @@ img.menuheader {
 #portfolio {
 	background: url(../img/background.jpg) no-repeat center top;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .portfolio-box {
@@ -413,7 +542,7 @@ img.menuheader {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Oswald','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Josefin Sans','Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 400;
 }
 
@@ -426,7 +555,7 @@ img.menuheader {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 14px;
-    font-family: 'Quicksand', Arial;
+    font-family: 'Josefin Sans', 'Open Sans', Arial;
     font-weight: 300;
 }
 
@@ -441,14 +570,32 @@ img.menuheader {
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 18px;
-        font-family: 'Quicksand', Arial;
+        font-family: 'Josefin Sans', 'Open Sans', Arial;
         font-weight: 300;
+    }
+}
+
+@media(max-width:768px) {
+    .headshot {
+        max-width: 20%;
     }
 }
 
 .btn btn-warning {
 
 }
+
+.headshot {
+    max-width: 90%;
+}
+
+/*.headshot {
+    background-image: url(../img/charlie.png);
+    background-size: 100%;
+    width: 300px;
+    height: 275px;
+    box-shadow: 0 0 20px 20px #1f3359 inset;
+}*/
 
 .resume-border {
     padding: 10px 30px 0px 30px;
@@ -474,5 +621,8 @@ img.menuheader {
     font-weight: 700;
     text-align: center;
 }
+
+
+
 
 

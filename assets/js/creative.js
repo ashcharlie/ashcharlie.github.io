@@ -19,11 +19,32 @@
                 $('.menulogo').fadeIn();
             }
         });
-    });
 
 });
   }(jQuery));
 
+(function ($) {
+  $(document).ready(function(){
+
+    // hide .navbar first
+    $(".navbar").hide();
+
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 600) {
+                //$('.navbar').fadeIn();
+                $('.menuheader').fadeOut();
+            } else {
+                //w$('.navbar').fadeOut();
+                $('.menuheader').fadeIn();
+            }
+        });
+
+});
+  }(jQuery));
 /**
  * cbpAnimatedHeader.js v1.0.0
  * http://www.codrops.com

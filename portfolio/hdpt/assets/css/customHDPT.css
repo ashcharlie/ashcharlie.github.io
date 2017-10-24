@@ -1,0 +1,886 @@
+/*
+ * Author: Charlie Ash
+ * URL: http://charlieash.com
+ *
+ * Project Name: Charlie Ash's Portfolio
+ * Version: 1.0
+ */
+
+/*.portfolio-title-row {
+	border-color: #1f3359;
+	text-align: center;
+	border-top-style: solid; 
+	border-bottom-style: solid;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-left: 150px;
+	border-right: 150px;
+	margin-bottom: 25px;
+}*/
+
+/*.nav-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: #820e0e;
+	padding: 8px 0px;
+	margin: 0px;
+}*/
+/*@media (min-width: 767px) {
+	#content {
+		width: 766px;
+		margin: 0 auto;
+		overflow: hidden;
+	}*/
+
+.home-link {
+	margin-left: 112px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.home-link h2 {
+	margin-top: -10px;
+	letter-spacing: 8px;
+}
+
+.placeholder {
+	height: 100px;
+}
+
+#nav {
+	/*position: fixed;*/
+	list-style: none;
+	background-color: #820e0e;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#nav li {
+	font-family: 'Josefin Sans', 'Oswald', sans-serif;
+	font-size: 1em;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #888;
+	margin-right: 100px;
+	list-style-type: none;
+	display: inline-block;
+	width: 25%;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: .3s background-color;
+}
+
+#nav a:hover {
+	background-color: #fff;
+	color: #820e0e;
+}
+
+#nav a.active {
+	background-color: #fff;
+	color: #820e0e;
+	cursor: default;
+}
+
+.navbar-fixed {
+	top: 0;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+}
+
+@media screen and (min-width: 767px) {
+	#nav li {
+		width: 120px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+	}
+	#nav li {
+		display: inline-block;
+		margin-right: -4px;
+	}
+
+	#content {
+		width: 766px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 766px) {
+	#nav {
+		margin-left: -5px;
+	}
+
+	#nav li {
+		width: 25%;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1em;
+		text-align: left;
+	}
+	#nav li {
+		display: inline-block;
+		margin-right: -4px;
+	}
+	.home-link {
+		margin-left: 40px;
+	}
+}
+
+.portfolio-title-row {
+	border-top: 3px solid #1f3359;
+	border-bottom: 3px solid #1f3359;
+	margin-top: 10px;
+	margin-bottom: 35px;
+	border-left-width: 100px;
+	border-right-width: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+
+}
+
+.page-description {
+	padding: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.project-page p {
+	font-family: 'Quicksand', serif;
+	font-size: 18px;
+	/*padding-left: 100px;
+	padding-right: 100px;*/
+	padding-bottom: 25px;
+	margin: 0px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.project-page ol {
+	font-family: 'Quicksand', serif;
+	font-size: 16px;
+	padding-left: 50px;
+	padding-right: 00px;
+	margin: 0px;
+	font-weight: 400;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+body {
+    max-width: auto;
+    background: url(../img/background.jpg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+figure.right1 {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 60%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 00px 20px 40px;
+}
+
+figure .HD-Running-Fliers {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 0px 0 0px;
+}
+
+figure.right2 {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 00px 20px 40px;
+}
+
+figure .When-the-Holiday-Season-Hurts-Fliers {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 0px 0 0px;
+}
+
+figure.left1 {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 18%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	margin: 0px 40px 20px 00px;
+}
+
+figure .Spire-Giveaway-Flier {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+/*	display: inline-block;*/
+	margin: 0 0px 0 0px;
+}
+
+figure.right3 {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 25%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 00px 20px 40px;
+}
+
+figure .Offbrand-When-Running-Hurts {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+/*	display: inline-block;*/
+	margin: 0 0px 0 0px;
+}
+
+figure.left2 {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	margin: 0 40px 20px 00px;
+}
+
+figure .Offbrand-Handouts {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+/*	display: inline-block;*/
+	margin: 0 0px 0 0px;
+}
+
+figure img {
+	vertical-align: top;
+	text-align: center;
+}
+
+figure figcaption {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #820e0e;
+}
+
+h1 {
+	color: #820e0e;
+}
+
+h3 {
+	/*padding-left: 100px;
+	padding-right: 100px;*/
+	margin: 0px;
+	color: #1f3359;
+	/*font-family: 'Architects Daughter', 'Oswald';*/
+}
+
+@media (max-width: 767px) {
+	.portfolio-title-row {
+		border-left-width: 5px;
+		border-right-width: 5px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	.project-page p {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.project-page ol {
+		padding-right: 5px;
+		padding-left: 25px;
+	}
+	figure.right1 {
+		margin: 5px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure.right2 {
+		margin: 5px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure.right3 {
+		margin: 5px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure.left1 {
+		margin: 5px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure.left2 {
+		margin: 5px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure .HD-Running-Fliers {
+		margin: 20px 10px 20px 10px;
+		display: block;
+		max-width: 100%;
+	}	
+	figure .When-the-Holiday-Season-Hurts-Fliers {
+		margin: 20px 10px 20px 10px;
+		float: right;
+		max-width: 40%;
+	}
+	figure .Spire-Giveaway-Flier {
+		margin: 20px 10px 20px 10px;
+		float: left;
+		max-width: 50%;
+	}	
+	figure .Offbrand-When-Running-Hurts {
+		margin: 20px 10px 20px 10px;
+		display: block;
+		max-width: 100%;
+	}
+	figure .Offbrand-Handouts {
+		margin: 20px 10px 20px 10px;
+		display: block;
+		max-width: 100%;
+	}
+	h3 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	/*Fixed background*/
+	body {
+		background: url(../img/background.jpg) repeat center top;
+		background-attachment: fixed;
+
+	}
+	#f {
+	background: #1f3359;
+	}
+}
+
+#f {
+	font-size: 12px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#f p {
+	font-size: 16px;
+}
+
+.creation {
+	padding-top: 40px;
+}
+
+
+/* Modal 1: Branded Fliers Promoting Running Health */
+/* Style the Image Used to Trigger the Modal */
+#myImg01 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg01:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content01 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption01 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content01, #caption01 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content01 {
+        width: 100%;
+    }
+}
+
+/* Modal 2: Holiday Themed Fliers Promoting Wellness */
+/* Style the Image Used to Trigger the Modal */
+#myImg02 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg02:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content02 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption02 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content02, #caption02 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content02 {
+        width: 100%;
+    }
+}
+
+
+/* Modal 3: Promotional Flier for Spire Giveaway */
+/* Style the Image Used to Trigger the Modal */
+#myImg03 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg03:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content03 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption03 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content03, #caption03 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content03 {
+        width: 100%;
+    }
+}
+
+
+/* Modal 4: Fliers Promoting Running Health in Off-brand Style */
+/* Style the Image Used to Trigger the Modal */
+#myImg04 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg04:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content04 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption04 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content04, #caption04 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content04 {
+        width: 100%;
+    }
+}
+
+/* Modal 5: General Fliers in Off-brand Style */
+/* Style the Image Used to Trigger the Modal */
+#myImg05 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg05:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content05 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption05 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content05, #caption05 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content05 {
+        width: 100%;
+    }
+}
+
+/*.Project-Happiness {
+	max-width: 50%;
+	float: right;
+}
+
+.Janeiro-Digital-Homepage {
+	max-width: 30%;
+	float: right;
+}*/
+
+/*#portfolioDescription {
+	background: url(../img/background.jpg) no-repeat center top;
+    background-attachment: fixed;
+}*/
+
+
+
+
+
+
+

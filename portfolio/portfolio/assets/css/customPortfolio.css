@@ -55,7 +55,7 @@
 }
 
 #nav li {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Josefin Sans', 'Oswald', sans-serif;
 	font-size: 1em;
 	line-height: 40px;
 	height: 40px;
@@ -104,6 +104,11 @@
 		display: inline-block;
 		margin-right: -4px;
 	}
+	#content {
+		width: 766px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
 }
 
 @media (max-width: 766px) {
@@ -150,8 +155,8 @@
 .project-page p {
 	font-family: 'Quicksand', serif;
 	font-size: 18px;
-	padding-left: 100px;
-	padding-right: 100px;
+	/*padding-left: 100px;
+	padding-right: 100px;*/
 	padding-bottom: 25px;
 	margin: 0px;
 	font-weight: 400;
@@ -161,8 +166,8 @@
 .project-page ol {
 	font-family: 'Quicksand', serif;
 	font-size: 16px;
-	padding-left: 150px;
-	padding-right: 100px;
+	padding-left: 50px;
+	padding-right: 00px;
 	margin: 0px;
 	font-weight: 400;
 }
@@ -179,47 +184,88 @@ body {
     max-width: auto;
     background: url(../img/background.jpg) no-repeat center top;
     background-attachment: fixed;
+    background-size: cover;
 }
 
-figure.right {
-	/*display: block;*/
-	/*margin: 20px;*/
-	max-width: 50%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	float: right;
-	margin: 0 100px 0 40px;
-}
-
-figure .Portfolio-Landing-Page-Sketch {
-	max-width: 32%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	float: right;
-	margin: 0 100px 0 40px;
-}
-
-figure.left {
+figure.right1 {
 	/*display: block;*/
 	/*margin: 20px;*/
 	max-width: 40%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	float: left;
-	margin: 0 40px 0 100px;
+	float: right;
+	margin: 0 00px 20px 40px;
 }
 
+figure .Portfolio-Landing-Page-2015 {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 0px 0 0px;
+}
+
+figure.left1 {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 25%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	margin: 0 40px 20px 00px;
+}
+figure .Portfolio-Landing-Page-Sketch {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 0px 0 0px;
+}
+
+
+figure.right2 {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 30%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 00px 20px 40px;
+}
 figure .Portfolio-Wireframe-Sketch {
 	max-width: 100%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 /*	float:right;*/
-/*	display: inline-block;*/
-/*	margin: 0 100px 0 40px;*/
+	display: inline-block;
+	margin: 0 00px 0 0px;
+}
+
+
+figure.right3 {
+	/*display: block;*/
+	/*margin: 20px;*/
+	max-width: 40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin: 0 00px 20px 40px;
+}
+figure .Portfolio-Landing-Page-2017 {
+	max-width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+/*	float:right;*/
+	display: inline-block;
+	margin: 0 00px 0 0px;
 }
 
 figure img {
@@ -239,11 +285,18 @@ h1 {
 }
 
 h3 {
-	padding-left: 100px;
-	padding-right: 100px;
+	/*padding-left: 100px;
+	padding-right: 100px;*/
 	margin: 0px;
 	color: #1f3359;
 	/*font-family: 'Architects Daughter', 'Oswald';*/
+}
+
+@media (min-width: 1550px) {
+	figure.right2 {
+		max-height: 20%;
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -261,25 +314,47 @@ h3 {
 		padding-right: 5px;
 		padding-left: 25px;
 	}
-	figure.right {
+	figure.right1 {
 		margin: 5px;
 		float: none;
 		display: block;
 		max-width: 100%;
 	}
-	figure.left {
+	figure.right2 {
 		margin: 5px;
 		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure.right3 {
+		margin: 5px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure.left1 {
+		margin: 5px;
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+	figure .Portfolio-Landing-Page-2015 {
+		margin: 20px 10px 20px 10px;
 		display: block;
 		max-width: 100%;
 	}
 	figure .Portfolio-Landing-Page-Sketch {
-		margin: 5px 5px 5px 10px;
+		margin: 20px 10px 20px 10px;
 		float: right;
 		max-width: 40%;
 	}
 	figure .Portfolio-Wireframe-Sketch {
-		margin: 5px 5px 5px 10px;
+		margin: 20px 10px 20px 10px;
+		display: block;
+		max-width: 100%;
+	}
+	figure .Portfolio-Landing-Page-2017 {
+		margin: 20px 10px 20px 10px;
 		display: block;
 		max-width: 100%;
 	}
@@ -311,6 +386,361 @@ h3 {
 .creation {
 	padding-top: 40px;
 }
+
+
+/* Modal 1: Portfolio Landing Page */
+/* Style the Image Used to Trigger the Modal */
+#myImg01 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg01:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content01 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption01 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content01, #caption01 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content01 {
+        width: 100%;
+    }
+}
+
+/* Modal 2: Initial Landing Page and Logo Sketches */
+/* Style the Image Used to Trigger the Modal */
+#myImg02 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg02:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content02 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption02 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content02, #caption02 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content02 {
+        width: 100%;
+    }
+}
+
+
+/* Modal 3: Portfolio Wireframe and Imformation Architecture Outlines */
+/* Style the Image Used to Trigger the Modal */
+#myImg03 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg03:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content03 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption03 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content03, #caption03 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content03 {
+        width: 100%;
+    }
+}
+
+/* Modal 4: Portfolio Landing Page 2017 */
+/* Style the Image Used to Trigger the Modal */
+#myImg04 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg04:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content04 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption04 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content04, #caption04 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content04 {
+        width: 100%;
+    }
+}
+
 
 /*.Portfolio-Wireframe {
 	max-width: 50%;

@@ -20,8 +20,8 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
+    font-family: 'Josefin Sans', 'Oswald', sans-serif;
+    font-weight: 500;
     color: #333;
 }
 
@@ -180,7 +180,7 @@ a:after {
 }
 
 .menu h1.logo a {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Josefin Sans', 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	letter-spacing: 0.15em;
