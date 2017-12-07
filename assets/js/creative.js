@@ -1,27 +1,27 @@
 //Navbar appear after user has begun scrolling
 
-(function ($) {
-  $(document).ready(function(){
+// (function ($) {
+//   $(document).ready(function(){
 
-    // hide .navbar first
-    $(".navbar").hide();
+//     // hide .navbar first
+//     $(".navbar").hide();
 
-    // fade in .navbar
-    $(function () {
-        $(window).scroll(function () {
+//     // fade in .navbar
+//     $(function () {
+//         $(window).scroll(function () {
 
-                 // set distance user needs to scroll before we start fadeIn
-            if ($(this).scrollTop() > 600) {
-                //$('.navbar').fadeIn();
-                $('.menulogo').fadeOut();
-            } else {
-                //w$('.navbar').fadeOut();
-                $('.menulogo').fadeIn();
-            }
-        });
+//                  // set distance user needs to scroll before we start fadeIn
+//             if ($(this).scrollTop() > 600) {
+//                 //$('.navbar').fadeIn();
+//                 $('.menulogo').fadeOut();
+//             } else {
+//                 //w$('.navbar').fadeOut();
+//                 $('.menulogo').fadeIn();
+//             }
+//         });
 
-});
-  }(jQuery));
+// });
+//   }(jQuery));
 
 (function ($) {
   $(document).ready(function(){
