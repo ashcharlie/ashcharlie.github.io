@@ -2210,6 +2210,25 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
+		.image.left.narrow, .image.right.narrow {
+			max-width: 17%;
+		}
+
+			.image.left.narrow img, .image.right.narrow img {
+				width: 100%;
+			}
+
+		.image.left.narrow {
+			float: left;
+			margin: 0 1.5em 1.25em 0;
+			top: 0.25em;
+		}
+
+		.image.right.narrow {
+			float: right;
+			margin: 0 0 1.25em 1.5em;
+			top: 0.25em;
+		}
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
