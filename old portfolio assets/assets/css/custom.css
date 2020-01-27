@@ -1,0 +1,629 @@
+/*
+ * Author: Charlie Ash
+ * URL: http://charlieash.com
+ *
+ * Project Name: Charlie Ash's Portfolio
+ * Version: 1.0
+ */
+
+ /*#headerwrap {
+ 	text-align: center;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	background: url(../img/boston.png);
+ }*/
+
+
+#headerwrap {
+	/*background: url(../img/background.jpg) no-repeat center top;*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#headerwrap .container img {
+	max-width: 50%;
+	height: auto;
+}
+
+ #headerwrap h1 {
+ 	letter-spacing: -7px;
+ }
+
+ #headerwrap h3 {
+ 	font-family: 'Josefin Sans', 'Architects Daughter', serif;
+ 	/*color: #820e0e;*/
+ 	font-size: 20px;
+ 	color: white;
+ 	font-weight: normal;
+ 	letter-spacing: -1px;
+ 	vertical-align: text-top;
+}
+
+#headerwrap .row {
+    height: 300px;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    background-image: url(../img/charlieashlogotriangleswide.png) no-repeat center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/*div.container {
+    display: none;
+}*/
+
+
+/* make keyframes that tell the start state and the end state of our object */
+ 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+ opacity:0;  /* make things invisible upon start */
+ -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
+ 
+ -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+ 
+ -webkit-animation-duration:4s;
+ -moz-animation-duration:4s;
+ animation-duration:4s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+
+#charlieashlogowide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+}
+
+#charlieashlogotriangleswide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+}
+
+/*Fade in transition attempt*/
+    /*#cf {
+      position:relative;
+      height:281px;
+      width:450px;
+      margin:0 auto;
+    }
+
+    #cf img {
+      position:absolute;
+      left:0;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+    }
+
+    @keyframes cfFadeInOut {
+        0%      {opacity:1;}
+        45%     {opacity:1;}
+        55%     {opacity:0;}
+        100%    {opacity:0;}
+    }
+
+    #cf img.top {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    }*/
+
+/*#headerwrap .menulogo {
+	text-align: right;
+	margin-right: 20px;
+	margin-top: -50px;*/
+}
+
+.bigger {
+	font-size: 125%;
+	font-style: bold;
+}
+
+/*#headerwrap .menulogo img {
+	max-width: 10%;
+	height: auto;
+}*/
+
+.menu-wrap {
+	background: #820e0e;
+}
+
+.menu a {
+	color: #a4a4a4;
+}
+
+.menu i {
+    color: #ffffff;
+
+}
+
+#menuToggle i {
+    color: #820e0e;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#f {
+	background: #1f3359;
+	font-size: 18px;
+}
+
+img.menulogo {
+    position: absolute;
+    right: 50px;
+    width: 10vw;
+    top: 14px;
+}
+
+img.menuheader {
+    position: absolute;
+    right: 50px;
+    width: 100px;
+    top: 10px;
+}
+
+.tagline {
+	background: url(../img/shadinggraywriting.png) no-repeat center;
+	background-size: 40%;
+	padding: 150px;
+	margin-top: -50px;
+	opacity: .0;
+
+
+	/*border-top:3px solid #820e0e;
+	border-bottom:3px solid #820e0e;*/ 	
+	/*border-top: 5px;
+ 	border-bottom: 5px;
+ 	border-top-color: #820e0e;
+ 	border-bottom-color: #820e0e;
+ 	background-color: red;*/
+ }
+
+ #headerwrap .logo {
+	/*background-image: url(../img/boston.png);*/
+
+	max-width: 30%;
+	height: auto;
+	margin-left: -50px;
+}
+
+#boston-red {
+	position: fixed; 
+	top: -50%; 
+	left: -50%; 
+	width: 200%; 
+	height: 200%;
+}
+
+#boston-skyline {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+}
+
+.boston-white {
+	max-width: 20%;
+	width: 200%;
+	height: 200%;
+    margin-top: 20px;
+}
+
+.scroller {
+    position: relative;
+    display: block;
+    width: 10%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 90px;
+
+}
+.arrows {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+/*.cambridge {
+	max-width: 50%;
+}*/
+
+.scrollDown {
+    position: absolute;
+    /*position: relative;*/
+    top: 40px;
+    left: -150px;
+    width: 140%;
+/*    right: 50px;
+    width: 10vw;
+    top: 14px;*/
+}
+
+#headerwrap .row img {
+	width: 70%;
+	max-width: none;
+	height: auto;
+    margin-top: 180px;
+	margin-bottom: 50px;
+}
+
+/*#headerwrap .row .boston img {
+	width: 70%;
+	max-width: none;
+	height: auto;
+	margin-top: 30px;
+}*/
+
+@media (max-width: 767px) {
+	img.menulogo {
+		display: none;
+	}
+
+    img.menuheader {
+        display: none;
+    }
+
+    #headerwrap .row {
+        height: 200px;
+    }
+
+	#headerwrap .row img {
+		width: 90%;
+	}
+
+	#headerwrap .logo img {
+		width: 100%;
+		max-width: none;
+	}
+    .scrollDown {
+        display: none;
+    }
+    .scrollarrows {
+        display: none;
+    }
+
+
+    /*To Repeat Backgroun on Mobile*/
+/*    #f {
+        background: url(../img/background.jpg) repeat center top;
+        background-attachment: fixed;
+    }*/
+    #headerwrap {
+        background: url(../img/background.jpg) repeat center top;
+        background-attachment: fixed;
+     }
+    #portfolio {
+        background: url(../img/background.jpg) repeat center top;
+        background-attachment: fixed;
+    }
+}
+
+.pencil {
+    position: center;
+    max-width: 50%;
+    margin: 20px 0 40px 0;
+    opacity: 0.75;
+}
+
+.logonameleft {
+	float: left;
+	width: 30%;
+	color: #1f3359;
+	font-size: 90px;
+	font-weight: 100;
+	font-family: 'Oswald', sans-serif;
+}
+
+.logonameright {
+	float: left;
+	width: 35%;
+	margin-left: 30px;
+	color: #1f3359;
+	font-size: 20px;
+	font-weight: 100;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.about {
+    width: 100%;
+}
+
+#home .row h1 {
+	top: 495px;
+    min-width: 848px;
+    min-height: 41px;
+    text-indent: -900em;
+	background: url(../img/charlieashred.png) no-repeat top center;
+    background-image: url(../img/charlieashred.png);
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+#portfolio .titlerow {
+    padding-top: 70px;
+    text-align: center;
+}
+
+#portfolio h3 {
+    color: #1f3359;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#portfolio i {
+    font-size: 8px;
+    color: #1f3359;
+    padding: 3px;
+}
+
+/*Testing new nav bar*/
+.navbar-default {
+    border-color: rgba(34,34,34,.05);
+    font-family: 'Josefin Sans', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: #f05f40;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #f05f40;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #f05f40!important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color: transparent;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(255,255,255,.3);
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #fff;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #fff;
+    }
+
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 14px;
+        color: #f05f40;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #eb3812;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #f05f40;
+    }
+}
+
+#portfolio {
+	background: url(../img/background.jpg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -moz-box-shadow: 0 0 5px 5px #820e0e;
+    -webkit-box-shadow: 0 0 5px 5px #820e0e;
+    box-shadow: 0 0 5px 5px #820e0e;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: #820e0e;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Josefin Sans','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 400;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 14px;
+    font-family: 'Josefin Sans', 'Open Sans', Arial;
+    font-weight: 300;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 18px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 18px;
+        font-family: 'Josefin Sans', 'Open Sans', Arial;
+        font-weight: 300;
+    }
+}
+
+@media(max-width:768px) {
+    .headshot {
+        max-width: 20%;
+    }
+}
+
+.btn btn-warning {
+
+}
+
+.headshot {
+    max-width: 90%;
+}
+
+/*.headshot {
+    background-image: url(../img/charlie.png);
+    background-size: 100%;
+    width: 300px;
+    height: 275px;
+    box-shadow: 0 0 20px 20px #1f3359 inset;
+}*/
+
+.resume-border {
+    padding: 10px 30px 0px 30px;
+    display: inline-block;
+/*    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 30px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 10px #888;*/
+}
+
+.creation {
+	font-size: 12px;
+	color: white;
+    padding-top: 10px;
+}
+
+.construction {
+    font-size: 40px;
+    color: red;
+    font-family: 'Stardos Stencil', Arial;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+
