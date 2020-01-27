@@ -2210,21 +2210,21 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
-		.image.left.slim, .image.right.slim {
-			max-width: 14%;
+		.image.leftslim, .image.rightslim {
+			max-width: 17%;
 		}
 
-			.image.left.slim img, .image.right.slim img {
+			.image.leftslim img, .image.rightslim img {
 				width: 100%;
 			}
 
-		.image.left.slim {
+		.image.leftslim {
 			float: left;
 			margin: 0 1.5em 1.25em 0;
 			top: 0.25em;
 		}
 
-		.image.right.slim {
+		.image.rightslim {
 			float: right;
 			margin: 0 0 1.25em 1.5em;
 			top: 0.25em;
